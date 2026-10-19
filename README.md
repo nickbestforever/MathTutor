@@ -1,6 +1,6 @@
 # MathTutor: A Verification-Guided Practice System for Linear Algebra
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app-url.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mathtutorla.streamlit.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **MathTutor** is an open-source, verification-guided interactive practice environment tailored for linear algebra education. Built to prevent LLM hallucinations and calculation errors, MathTutor relies on an independent symbolic execution core powered by Python's `SymPy` library to ensure deterministic mathematical correctness.
