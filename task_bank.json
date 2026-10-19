@@ -1,0 +1,1445 @@
+[
+  {
+    "id": "det_01",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 1)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_01.png",
+    "input_data": { "matrix": [[1, 2, 1, 4], [1, 1, 3, 1], [1, 2, 1, 2], [1, 1, 1, 1]] },
+    "correct_answer": 4,
+    "hints": ["Subtract the first row from the third row to obtain zeros."]
+  },
+  {
+    "id": "det_02",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 2)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_02.png",
+    "input_data": { "matrix": [[1, 2, 3, 4], [1, 0, 1, 2], [3, -1, -1, 0], [1, 2, 0, -5]] },
+    "correct_answer": -30,
+    "hints": ["Use Laplace expansion along the second row."]
+  },
+  {
+    "id": "det_03",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 3)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_03.png",
+    "input_data": { "matrix": [[2, 3, -3, 4], [2, 1, -1, 2], [6, 2, 1, 0], [2, 3, 0, -5]] },
+    "correct_answer": -10,
+    "hints": ["Apply elementary row transformations."]
+  },
+  {
+    "id": "det_04",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 4)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_04.png",
+    "input_data": { "matrix": [[2, -1, 1, 0], [0, 1, 2, -1], [3, -1, 2, 3], [3, 1, 6, 1]] },
+    "correct_answer": -10,
+    "hints": ["Expand along the first row or column."]
+  },
+  {
+    "id": "det_05",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 5)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_05.png",
+    "input_data": { "matrix": [[5, 62, -79, 4], [0, 2, 3, 0], [6, 183, 201, 5], [0, 3, 4, 0]] },
+    "correct_answer": 0,
+    "hints": ["Utilize rows or columns with multiple zeros."]
+  },
+  {
+    "id": "det_06",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 6)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_06.png",
+    "input_data": { "matrix": [[6, 8, -9, -12], [4, 6, -6, -9], [-3, -4, 6, 8], [-2, -3, 4, 6]] },
+    "correct_answer": -3,
+    "hints": ["Factor out common scalar multipliers from rows/columns."]
+  },
+  {
+    "id": "det_07",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 7)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_07.png",
+    "input_data": { "matrix": [[3, -1, 4, 2], [5, 2, 0, 1], [0, 2, 1, -3], [6, -2, 9, 8]] },
+    "correct_answer": -118,
+    "hints": ["Expand along the second row."]
+  },
+  {
+    "id": "det_08",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 8)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_08.png",
+    "input_data": { "matrix": [[1, 1, 1, 3], [1, 1, 1, 2], [5, 9, 5, -8], [4, 7, 7, -11]] },
+    "correct_answer": 0,
+    "hints": ["Inspect rows for linear dependence."]
+  },
+  {
+    "id": "det_09",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 9)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_09.png",
+    "input_data": { "matrix": [[1, 1, 0, -1], [1, 1, 0, 1], [3, 2, 1, -1], [0, 0, 3, 4]] },
+    "correct_answer": 0,
+    "hints": ["Check columns for linear dependence."]
+  },
+  {
+    "id": "det_10",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 10)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_10.png",
+    "input_data": { "matrix": [[1, -3, -5, 7], [2, -1, 3, 4], [2, -1, 1, 2], [7, -5, 1, 1]] },
+    "correct_answer": -104,
+    "hints": ["Apply Gaussian elimination."]
+  },
+  {
+    "id": "det_11",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 11)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_11.png",
+    "input_data": { "matrix": [[2, 0, 5, 4], [-1, 2, 1, 0], [6, 4, 2, 1], [3, 1, 3, 2]] },
+    "correct_answer": -57,
+    "hints": ["Expand along the first row."]
+  },
+  {
+    "id": "det_12",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 12)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_12.png",
+    "input_data": { "matrix": [[1, 0, 4, 3], [2, 1, 3, 3], [3, 2, 2, 0], [4, 3, 1, 1]] },
+    "correct_answer": 0,
+    "hints": ["Note proportional or dependent rows."]
+  },
+  {
+    "id": "det_13",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 13)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_13.png",
+    "input_data": { "matrix": [[4, -1, 3, 0], [3, -1, 0, 2], [2, 0, -4, 4], [1, 4, 1, 1]] },
+    "correct_answer": 255,
+    "hints": ["Leverage zero entries in the matrix."]
+  },
+  {
+    "id": "det_14",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 14)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_14.png",
+    "input_data": { "matrix": [[9, 3, 0, 1], [1, 1, -2, 2], [3, 6, 1, -3], [0, -1, 3, 1]] },
+    "correct_answer": -183,
+    "hints": ["Expand by the first row."]
+  },
+  {
+    "id": "det_15",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 15)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_15.png",
+    "input_data": { "matrix": [[5, -1, -4, 0], [-2, 0, 1, 2], [0, 2, 4, -3], [3, -1, 2, 1]] },
+    "correct_answer": 12,
+    "hints": ["Use zeros in row 1 and row 2."]
+  },
+  {
+    "id": "det_16",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 16)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_16.png",
+    "input_data": { "matrix": [[-2, 3, -3, 1], [2, 1, 1, 2], [3, 2, -1, 0], [2, 3, 0, -5]] },
+    "correct_answer": 255,
+    "hints": ["Utilize the zero entry in the third row."]
+  },
+  {
+    "id": "det_17",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 17)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_17.png",
+    "input_data": { "matrix": [[1, 0, 1, 4], [-1, 1, 3, 1], [3, 2, 4, 2], [1, 0, 1, -3]] },
+    "correct_answer": -35,
+    "hints": ["Expand along the second column."]
+  },
+  {
+    "id": "det_18",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 18)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_18.png",
+    "input_data": { "matrix": [[-4, 62, 7, 4], [0, 2, 3, 1], [6, 13, 21, -5], [1, -3, 4, 0]] },
+    "correct_answer": 2520,
+    "hints": ["Use the zero entry in the second row."]
+  },
+  {
+    "id": "det_19",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 19)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_19.png",
+    "input_data": { "matrix": [[-1, 1, -2, 3], [2, 0, 3, 3], [3, -2, 2, 0], [4, 3, 12, -1]] },
+    "correct_answer": 234,
+    "hints": ["Expand along the second column."]
+  },
+  {
+    "id": "det_20",
+    "topic": "1. Determinants",
+    "title": "4x4 Determinant Evaluation (Variant 20)",
+    "description": "Calculate the determinant of the 4th-order matrix:",
+    "image_path": "assets/images/01/01det_20.png",
+    "input_data": { "matrix": [[1, -2, 0, -1], [-1, 1, 4, 1], [3, -4, 1, -1], [0, 1, 3, 4]] },
+    "correct_answer": 40,
+    "hints": ["Use the zero entry in the first row."]
+  },
+
+  {
+    "id": "mult_01",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 1)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_01.png",
+    "input_data": { "matrix_a": [[1, 2, -1], [4, 5, -1], [3, 5, 7]], "matrix_b": [[6, 5, -3], [4, 8, 7], [-1, 2, 5]] },
+    "correct_answer": [[15, 19, 6], [45, 58, 22], [31, 69, 61]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_02",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 2)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_02.png",
+    "input_data": { "matrix_a": [[5, 0, 7], [1, 2, 3], [-1, 0, 2]], "matrix_b": [[1, 2, 3], [2, 0, 1], [3, -1, 1]] },
+    "correct_answer": [[26, 3, 22], [14, -1, 8], [5, -4, -1]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_03",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 3)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_03.png",
+    "input_data": { "matrix_a": [[3, -1, 0], [4, 2, -1], [1, 1, 2]], "matrix_b": [[-7, 2, 1], [4, 3, 1], [-5, 0, 2]] },
+    "correct_answer": [[-25, 3, 2], [-15, 14, 4], [-13, 5, 6]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_04",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 4)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_04.png",
+    "input_data": { "matrix_a": [[3, 5, 7], [2, -1, 0], [4, 3, 2]], "matrix_b": [[1, 2, 4], [2, 3, -2], [-1, 0, 1]] },
+    "correct_answer": [[6, 21, 9], [0, 1, 10], [8, 17, 12]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_05",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 5)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_05.png",
+    "input_data": { "matrix_a": [[1, -2, 3], [3, 1, 2], [5, 1, -6]], "matrix_b": [[1, 2, -1], [4, 5, -1], [3, 5, 7]] },
+    "correct_answer": [[2, 3, 22], [13, 21, 10], [-9, -15, -48]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_06",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 6)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_06.png",
+    "input_data": { "matrix_a": [[0, 4, 3], [-1, 2, 4], [2, 1, 5]], "matrix_b": [[1, -2, 4], [-1, 3, -7], [2, 1, 5]] },
+    "correct_answer": [[2, 15, -13], [5, 12, -2], [11, 0, 26]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_07",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 7)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_07.png",
+    "input_data": { "matrix_a": [[0, 4, 3], [-1, 2, 4], [2, 1, 5]], "matrix_b": [[1, -2, 4], [-1, 3, -7], [2, 1, 5]] },
+    "correct_answer": [[2, 15, -13], [5, 12, -2], [11, 0, 26]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_08",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 8)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_08.png",
+    "input_data": { "matrix_a": [[4, 2, 5], [-3, 8, 4], [1, 7, 7]], "matrix_b": [[7, 3, 1], [0, 4, -1], [2, 5, 0]] },
+    "correct_answer": [[38, 45, 2], [-13, 41, -11], [21, 66, -6]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_09",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 9)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_09.png",
+    "input_data": { "matrix_a": [[7, 0, 2], [3, 4, 5], [1, -1, 0]], "matrix_b": [[4, -4, 1], [3, 5, -1], [8, 0, 3]] },
+    "correct_answer": [[44, -28, 13], [64, 8, 14], [1, -9, 2]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_10",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 10)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_10.png",
+    "input_data": { "matrix_a": [[2, 3, -4], [4, 3, -4], [1, -1, 0]], "matrix_b": [[-1, 4, 5], [8, 3, 0], [4, 7, -1]] },
+    "correct_answer": [[6, 9, 14], [4, 23, 24], [-9, 1, 5]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_11",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 11)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_11.png",
+    "input_data": { "matrix_a": [[4, 0, 1], [3, 3, 2], [-1, 6, 3]], "matrix_b": [[1, -1, 0], [0, 2, 3], [-1, 8, 1]] },
+    "correct_answer": [[3, 4, 1], [1, 19, 11], [-4, 37, 21]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_12",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 12)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_12.png",
+    "input_data": { "matrix_a": [[4, 2, -1], [-3, 0, 1], [1, 3, 3]], "matrix_b": [[1, 1, 1], [6, -1, 0], [-4, 0, 3]] },
+    "correct_answer": [[20, 2, 1], [-7, -3, 0], [7, -2, 10]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_13",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 13)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_13.png",
+    "input_data": { "matrix_a": [[8, -3, 9], [7, -1, 2], [6, 0, -1]], "matrix_b": [[5, 3, 0], [4, -2, 7], [2, 1, -2]] },
+    "correct_answer": [[46, 39, -39], [35, 25, -11], [28, 17, 2]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_14",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 14)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_14.png",
+    "input_data": { "matrix_a": [[-4, 8, 2], [0, -2, -6], [2, 9, 1]], "matrix_b": [[-6, 7, 4], [1, 0, -2], [1, 4, 1]] },
+    "correct_answer": [[34, -20, -30], [-8, -24, -2], [-4, 18, -11]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_15",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 15)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_15.png",
+    "input_data": { "matrix_a": [[7, 1, -1], [6, 2, -2], [5, 3, -3]], "matrix_b": [[7, -1, -6], [6, -3, 1], [5, -4, 2]] },
+    "correct_answer": [[50, -6, -47], [44, -4, -44], [38, -2, -41]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_16",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 16)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_16.png",
+    "input_data": { "matrix_a": [[9, 2, 2], [-5, 3, -1], [1, 4, 0]], "matrix_b": [[-4, 8, 9], [5, 5, 1], [1, -2, -2]] },
+    "correct_answer": [[-28, 78, 85], [34, -23, -40], [16, 28, 13]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_17",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 17)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_17.png",
+    "input_data": { "matrix_a": [[8, 4, -5], [0, -3, 4], [1, 2, 3]], "matrix_b": [[8, 5, 2], [-7, 4, 1], [-7, 3, 0]] },
+    "correct_answer": [[71, 41, 20], [-7, 0, -3], [-27, 22, 4]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_18",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 18)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_18.png",
+    "input_data": { "matrix_a": [[6, 4, -1], [3, -5, -3], [6, 3, 1]], "matrix_b": [[4, 6, 1], [3, -4, 2], [-1, -4, 3]] },
+    "correct_answer": [[37, 24, 11], [-6, 50, -16], [32, 20, 15]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_19",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 19)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_19.png",
+    "input_data": { "matrix_a": [[5, 1, 9], [-4, 2, 0], [-3, 3, 7]], "matrix_b": [[-1, 9, 11], [0, 8, 3], [3, -7, -8]] },
+    "correct_answer": [[22, -10, 14], [4, -20, -38], [24, -50, -86]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+  {
+    "id": "mult_20",
+    "topic": "2. Matrix Multiplication",
+    "title": "Matrix Multiplication (Variant 20)",
+    "description": "Find the product of matrices A * B:",
+    "image_path": "assets/images/02/02mult_20.png",
+    "input_data": { "matrix_a": [[8, 1, 4], [-4, 0, 1], [2, -6, -4]], "matrix_b": [[2, 7, -1], [1, 8, 0], [-1, -9, 3]] },
+    "correct_answer": [[13, 28, 4], [-9, -37, 7], [-2, -26, -14]],
+    "hints": ["Multiply rows of matrix A by columns of matrix B."]
+  },
+
+  {
+    "id": "inv_01",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 1)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_01.png",
+    "input_data": { "matrix": [[1, 2, -2], [2, 1, 0], [1, -1, 1]] },
+    "correct_answer": [[1, 0, 2], [-2, 3, -4], [-3, 3, -3]],
+    "hints": ["Find the determinant and transpose the cofactor matrix."]
+  },
+  {
+    "id": "inv_02",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 2)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_02.png",
+    "input_data": { "matrix": [[1, 3, 5], [-2, -3, 1], [1, 2, -5]] },
+    "correct_answer": [[13, 25, 18], [-9, -15, -6], [-1, -1, -6]],
+    "hints": ["Use the adjugate matrix method."]
+  },
+  {
+    "id": "inv_03",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 3)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_03.png",
+    "input_data": { "matrix": [[1, 2, -3], [3, 2, -4], [2, -1, 0]] },
+    "correct_answer": [[-4, 3, -2], [-8, 6, -5], [-7, 5, -4]],
+    "hints": ["Calculate the matrix determinant."]
+  },
+  {
+    "id": "inv_04",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 4)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_04.png",
+    "input_data": { "matrix": [[5, 4, 3], [2, 1, 4], [-3, -2, -1]] },
+    "correct_answer": [[7, -2, 13], [-10, 4, -14], [-3, 2, -3]],
+    "hints": ["Verify that the determinant is non-zero."]
+  },
+  {
+    "id": "inv_05",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 5)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_05.png",
+    "input_data": { "matrix": [[5, 3, 1], [1, -3, -2], [-5, 2, 1]] },
+    "correct_answer": [[1, -1, -3], [9, 10, 11], [-13, -25, -18]],
+    "hints": ["Find the matrix of algebraic complements."]
+  },
+  {
+    "id": "inv_06",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 6)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_06.png",
+    "input_data": { "matrix": [[2, 3, 1], [4, -1, 1], [5, 1, 1]] },
+    "correct_answer": [[-2, -2, 4], [1, -9, 4], [9, 13, -14]],
+    "hints": ["Use the cofactor expansion formula."]
+  },
+  {
+    "id": "inv_07",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 7)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_07.png",
+    "input_data": { "matrix": [[1, 2, 2], [4, 5, -5], [5, 7, -2]] },
+    "correct_answer": [[-25, -18, 20], [17, 12, -13], [3, 3, -3]],
+    "hints": ["Calculate the matrix determinant."]
+  },
+  {
+    "id": "inv_08",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 8)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_08.png",
+    "input_data": { "matrix": [[3, 2, 1], [2, 3, 1], [2, 1, 3]] },
+    "correct_answer": [[8, -5, -1], [-4, 7, -1], [-4, 1, 5]],
+    "hints": ["Compute the determinant (equals 12)."]
+  },
+  {
+    "id": "inv_09",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 9)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_09.png",
+    "input_data": { "matrix": [[2, 3, -4], [4, 3, -4], [1, -1, 0]] },
+    "correct_answer": "non_invertible",
+    "hints": ["Check if the determinant is zero."]
+  },
+  {
+    "id": "inv_10",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 10)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_10.png",
+    "input_data": { "matrix": [[2, 1, 1], [5, 1, 3], [2, 1, 2]] },
+    "correct_answer": [[-1, -1, 2], [-4, 2, -1], [3, 0, -3]],
+    "hints": ["The determinant equals -1."]
+  },
+  {
+    "id": "inv_11",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 11)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_11.png",
+    "input_data": { "matrix": [[9, 2, 2], [-5, 3, -1], [1, 4, 0]] },
+    "correct_answer": [[-4, -8, -8], [-1, -2, 1], [-23, -34, 37]],
+    "hints": ["Compute the matrix determinant."]
+  },
+  {
+    "id": "inv_12",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 12)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_12.png",
+    "input_data": { "matrix": [[-1, 9, 11], [0, 8, 3], [3, -7, -8]] },
+    "correct_answer": [[-43, -25, -61], [9, 5, 3], [-24, -10, -14]],
+    "hints": ["Find the adjugate matrix."]
+  },
+  {
+    "id": "inv_13",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 13)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_13.png",
+    "input_data": { "matrix": [[4, 2, 5], [-3, 8, 4], [1, 7, 7]] },
+    "correct_answer": [[28, 21, -32], [25, 23, -31], [-29, -26, 38]],
+    "hints": ["Compute the determinant."]
+  },
+  {
+    "id": "inv_14",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 14)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_14.png",
+    "input_data": { "matrix": [[7, 3, 1], [0, 4, -1], [2, 5, 0]] },
+    "correct_answer": [[-5, -5, 7], [2, 2, -3], [8, 29, -28]],
+    "hints": ["The determinant equals 1."]
+  },
+  {
+    "id": "inv_15",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 15)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_15.png",
+    "input_data": { "matrix": [[1, -2, 4], [-1, 3, -7], [2, 1, 5]] },
+    "correct_answer": [[22, 14, 2], [-9, -3, 3], [-7, -5, 1]],
+    "hints": ["Compute the determinant."]
+  },
+  {
+    "id": "inv_16",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 16)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_16.png",
+    "input_data": { "matrix": [[1, 1, 1], [6, -1, 0], [-4, 0, 3]] },
+    "correct_answer": [[3, 3, -1], [18, -7, 6], [-4, -4, 7]],
+    "hints": ["Compute the determinant."]
+  },
+  {
+    "id": "inv_17",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 17)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_17.png",
+    "input_data": { "matrix": [[2, -3, 3], [4, 1, -4], [1, -1, 0]] },
+    "correct_answer": [[-4, -3, 9], [-4, -3, 8], [-5, -1, 14]],
+    "hints": ["Compute the adjugate matrix."]
+  },
+  {
+    "id": "inv_18",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 18)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_18.png",
+    "input_data": { "matrix": [[5, 3, 0], [4, -2, 7], [2, 1, -2]] },
+    "correct_answer": [[-3, 6, 21], [22, -10, -35], [8, 1, -22]],
+    "hints": ["Check the determinant."]
+  },
+  {
+    "id": "inv_19",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 19)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_19.png",
+    "input_data": { "matrix": [[6, 5, -3], [4, 8, 7], [-1, 2, 5]] },
+    "correct_answer": [[26, -31, 59], [-27, 27, -54], [16, -17, 28]],
+    "hints": ["Find algebraic complements."]
+  },
+  {
+    "id": "inv_20",
+    "topic": "3. Inverse Matrix",
+    "title": "Inverse Matrix (Variant 20)",
+    "description": "Find the inverse matrix of A:",
+    "image_path": "assets/images/03/03inv_20.png",
+    "input_data": { "matrix": [[8, -3, 9], [7, -1, 2], [6, 0, -1]] },
+    "correct_answer": [[1, -3, 3], [19, -62, 49], [6, -18, 13]],
+    "hints": ["Compute the determinant (equals 19)."]
+  },
+
+  {
+    "id": "eq_ax_b",
+    "topic": "4. Matrix Equations",
+    "title": "Matrix Equation AX = B",
+    "description": "Solve the matrix equation AX = B:",
+    "image_path": "assets/images/041eq_ax_01.png",
+    "input_data": { "matrix_a": [[1, 2], [3, 4]], "matrix_b": [[5, 11]], "equation_type": "AX=B" },
+    "correct_answer": [[1], [2]],
+    "hints": ["Multiply both sides on the left by A^(-1)."]
+  },
+  {
+    "id": "eq_xa_b",
+    "topic": "4. Matrix Equations",
+    "title": "Matrix Equation XA = B",
+    "description": "Solve the matrix equation XA = B:",
+    "image_path": "assets/images/042eq_xa_01.png",
+    "input_data": { "matrix_a": [[1, 2], [3, 4]], "matrix_b": [[7, 10]], "equation_type": "XA=B" },
+    "correct_answer": [[1], [2]],
+    "hints": ["Multiply both sides on the right by A^(-1)."]
+  },
+  {
+    "id": "eq_axb_c",
+    "topic": "4. Matrix Equations",
+    "title": "Matrix Equation AXB = C",
+    "description": "Solve the matrix equation AXB = C:",
+    "image_path": "assets/images/043eq_axb_01.png",
+    "input_data": { "matrix_a": [[1, 0], [0, 1]], "matrix_b": [[1, 0], [0, 1]], "matrix_c": [[5, 6], [7, 8]], "equation_type": "AXB=C" },
+    "correct_answer": [[5, 6], [7, 8]],
+    "hints": ["Apply inverse matrices for both A and B."]
+  },
+  {
+    "id": "cramer_01",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 1)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_01.png",
+    "input_data": { "coefficients": [[3, -3, 2], [4, -5, 2], [5, -6, 4]], "free_terms": [-2, -3, -1] },
+    "correct_answer": [1.0, 2.0, 1.0],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_02",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 2)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_02.png",
+    "input_data": { "coefficients": [[1, 1, 1], [1, -1, 2], [4, 1, 4]], "free_terms": [3, -1, 9] },
+    "correct_answer": [1.0, 2.0, 0.0],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_03",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 3)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_03.png",
+    "input_data": { "coefficients": [[3, 2, -1], [1, 1, 2], [2, 2, 5]], "free_terms": [8, 4, 9] },
+    "correct_answer": [3.0, 1.0, 0.0],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_04",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 4)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_04.png",
+    "input_data": { "coefficients": [[3, 4, 1], [2, 3, 1], [5, 2, 2]], "free_terms": [16, 11, 12] },
+    "correct_answer": [1.0, 3.0, 1.0],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_05",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 5)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_05.png",
+    "input_data": { "coefficients": [[2, 1, 1], [1, 0, 2], [3, 1, 2]], "free_terms": [-1, 3, -1] },
+    "correct_answer": [3.0, -4.0, 0.0],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_06",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 6)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_06.png",
+    "input_data": { "coefficients": [[2, -2, 0], [5, 3, -6], [1, -2, 3]], "free_terms": [3, 25, -6] },
+    "correct_answer": [3.0, 1.5, -2.0],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_07",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 7)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_07.png",
+    "input_data": { "coefficients": [[2, 1, 1], [0, 2, 1], [3, 1, 2]], "free_terms": [7, -2, 14] },
+    "correct_answer": [3.0, -2.0, 2.0],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_08",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 8)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_08.png",
+    "input_data": { "coefficients": [[1, 2, 2], [4, 5, -5], [5, 7, -2]], "free_terms": [2, -8, -5] },
+    "correct_answer": [2.0, -2.0, 2.0],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_09",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 9)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_09.png",
+    "input_data": { "coefficients": [[1, 2, 2], [2, 1, -2], [2, -2, 1]], "free_terms": [3, -6, 9] },
+    "correct_answer": [1.0, -2.0, 3.0],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_10",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 10)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_10.png",
+    "input_data": { "coefficients": [[1, 2, -3], [0, 1, 2], [1, 0, 4]], "free_terms": [-7, 1, 13] },
+    "correct_answer": [1.0, -3.0, 2.0],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_11",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 11)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_11.png",
+    "input_data": { "coefficients": [[-2, -3, 2], [1, -5, 0], [1, 6, 4]], "free_terms": [-2, 10, 1] },
+    "correct_answer": [5.0, -1.0, -4.5],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_12",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 12)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_12.png",
+    "input_data": { "coefficients": [[1, -3, 2], [-4, 1, 2], [5, 0, 1]], "free_terms": [-7, 11, -1] },
+    "correct_answer": [0.0, 3.0, -1.0],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_13",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 13)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_13.png",
+    "input_data": { "coefficients": [[3, 1, 9], [0, -1, 2], [5, -2, 4]], "free_terms": [-2, -3, -16] },
+    "correct_answer": [-2.0, 1.0, -1.0],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_14",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 14)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_14.png",
+    "input_data": { "coefficients": [[3, -6, 2], [4, -7, 0], [0, 8, 4]], "free_terms": [-2, -3, -1] },
+    "correct_answer": [1.0, 1.0, -2.25],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_15",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 15)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_15.png",
+    "input_data": { "coefficients": [[3, -3, 2], [4, -3, 0], [-4, 1, 4]], "free_terms": [1, -3, 5] },
+    "correct_answer": [-3.0, -3.0, 2.5],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_16",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 16)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_16.png",
+    "input_data": { "coefficients": [[0, 3, 2], [4, 0, -2], [15, -1, 4]], "free_terms": [-2, 5, -1] },
+    "correct_answer": [1.0, -2.0, 2.0],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_17",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 17)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_17.png",
+    "input_data": { "coefficients": [[-2, -3, 2], [-4, 5, 2], [5, -6, 4]], "free_terms": [-12, 6, -1] },
+    "correct_answer": [3.0, 2.0, -2.0],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_18",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 18)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_18.png",
+    "input_data": { "coefficients": [[3, 9, 2], [4, -5, 2], [5, -16, -4]], "free_terms": [12, -13, -11] },
+    "correct_answer": [-1.0, 2.0, -1.5],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_19",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 19)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_19.png",
+    "input_data": { "coefficients": [[1, 1, 2], [14, -1, 2], [5, -6, 1]], "free_terms": [-2, -3, -1] },
+    "correct_answer": [0.0, 0.0, -1.0],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+  {
+    "id": "cramer_20",
+    "topic": "5. Cramer's Rule",
+    "title": "Cramer's Rule for SLAE (Variant 20)",
+    "description": "Solve the system using Cramer's rule [x1, x2, x3]:",
+    "image_path": "assets/images/05/05cramer_20.png",
+    "input_data": { "coefficients": [[6, -5, 2], [-1, -5, 2], [3, -1, -3]], "free_terms": [2, -4, 1] },
+    "correct_answer": [0.8571, 1.4286, 0.4286],
+    "hints": ["Find the main system determinant and Cramer's auxiliary determinants."]
+  },
+ {
+    "id": "inv_slae_01",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 1)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_01.png",
+    "input_data": { "coefficients": [[4, -3, 2], [2, 5, -3], [5, 6, -2]], "free_terms": [9, 4, 18] },
+    "correct_answer": [3.0, 1.0, 0.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_02",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 2)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_02.png",
+    "input_data": { "coefficients": [[1, 2, 1], [3, -5, 3], [2, 7, -1]], "free_terms": [4, 1, 8] },
+    "correct_answer": [1.0, 1.0, 1.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_03",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 3)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_03.png",
+    "input_data": { "coefficients": [[3, 2, 1], [2, 3, 1], [2, 1, 3]], "free_terms": [1, 3, 5] },
+    "correct_answer": [-1.0, 1.0, 2.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_04",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 4)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_04.png",
+    "input_data": { "coefficients": [[1, 2, 1], [4, 3, -2], [-5, -4, -1]], "free_terms": [6, -4, -6] },
+    "correct_answer": [1.0, 1.0, 3.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_05",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 5)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_05.png",
+    "input_data": { "coefficients": [[2, -1, -1], [3, 4, -2], [3, -2, 4]], "free_terms": [1, -11, 19] },
+    "correct_answer": [1.0, -2.0, 3.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_06",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 6)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_06.png",
+    "input_data": { "coefficients": [[1, -1, 7], [2, 3, -3], [3, 2, 5]], "free_terms": [6, 10, 17] },
+    "correct_answer": [3.0, 2.0, 1.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_07",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 7)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_07.png",
+    "input_data": { "coefficients": [[1, 2, 2], [4, 5, -5], [5, 7, -2]], "free_terms": [2, -8, -5] },
+    "correct_answer": [2.0, -2.0, 2.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_08",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 8)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_08.png",
+    "input_data": { "coefficients": [[8, 4, 3], [2, 6, -2], [3, 10, 1]], "free_terms": [7, 4, 11] },
+    "correct_answer": [0.5, 1.0, -0.5],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_09",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 9)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_09.png",
+    "input_data": { "coefficients": [[2, -4, 9], [7, 3, -6], [7, 9, -9]], "free_terms": [28, -1, 5] },
+    "correct_answer": [2.0, 1.0, 2.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_10",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 10)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_10.png",
+    "input_data": { "coefficients": [[2, 1, 5], [4, 3, 3], [1, 6, 1]], "free_terms": [24, 20, 6] },
+    "correct_answer": [2.0, 0.0, 4.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_11",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 11)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_11.png",
+    "input_data": { "coefficients": [[1, -3, 2], [-2, 1, 3], [15, 6, -2]], "free_terms": [19, 14, 8] },
+    "correct_answer": [2.0, -3.0, 4.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_12",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 12)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_12.png",
+    "input_data": { "coefficients": [[-3, -2, 1], [3, -5, 3], [-2, -17, -1]], "free_terms": [14, -1, 6] },
+    "correct_answer": [-2.0, -1.0, 6.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_13",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 13)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_13.png",
+    "input_data": { "coefficients": [[1, 2, 1], [-2, 3, 1], [-2, 7, 3]], "free_terms": [1, 3, 15] },
+    "correct_answer": [-1.0, 2.0, -2.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_14",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 14)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_14.png",
+    "input_data": { "coefficients": [[-3, 2, 1], [4, 13, -2], [-5, -4, -1]], "free_terms": [6, -4, 16] },
+    "correct_answer": [-2.0, 0.0, 0.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_15",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 15)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_15.png",
+    "input_data": { "coefficients": [[-2, -1, 1], [3, 14, -12], [3, -1, 4]], "free_terms": [-1, -14, 9] },
+    "correct_answer": [1.0, -1.0, 0.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_16",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 16)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_16.png",
+    "input_data": { "coefficients": [[5, -1, 7], [-2, -1, -3], [1, 12, -5]], "free_terms": [16, 4, 7] },
+    "correct_answer": [2.0, 0.0, 2.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_17",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 17)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_17.png",
+    "input_data": { "coefficients": [[-1, 1, 2], [4, 1, -5], [5, 17, 2]], "free_terms": [10, 8, -3] },
+    "correct_answer": [3.0, -1.0, 3.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_18",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 18)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_18.png",
+    "input_data": { "coefficients": [[2, -1, 3], [2, 2, -2], [3, -1, 3]], "free_terms": [-3, 1, -9] },
+    "correct_answer": [-6.0, 2.25, 3.5],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_19",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 19)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_19.png",
+    "input_data": { "coefficients": [[6, 1, 7], [2, 3, -6], [7, 3, -1]], "free_terms": [21, 1, -3] },
+    "correct_answer": [-2.0, 5.0, 4.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "inv_slae_20",
+    "topic": "6. Inverse Matrix SLAE",
+    "title": "SLAE via Inverse Matrix (Variant 20)",
+    "description": "Solve the system via matrix method X = A^(-1)*B [x1, x2, x3]:",
+    "image_path": "assets/images/06/06inv_slae_20.png",
+    "input_data": { "coefficients": [[1, 2, -3], [1, 3, 3], [1, -3, -1]], "free_terms": [4, -10, 3] },
+    "correct_answer": [1.0, -2.0, -1.0],
+    "hints": ["Compute the inverse of coefficient matrix A and multiply by B."]
+  },
+  {
+    "id": "rank_01",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 1)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_01.png",
+    "input_data": { "matrix": [[1, 2, 2, 0, -1], [3, -1, 4, -2, 4], [5, 3, 10, 8, 2], [1, -5, 0, -2, 6]] },
+    "correct_answer": 2,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_02",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 2)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_02.png",
+    "input_data": { "matrix": [[1, 2, 3, 4], [-1, 0, 2, 1], [-1, 2, 7, 5], [-1, 4, 12, 10]] },
+    "correct_answer": 2,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_03",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 3)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_03.png",
+    "input_data": { "matrix": [[2, 1, 3, -1], [3, -1, 2, 0], [1, 3, 4, -2], [4, -3, 1, 1]] },
+    "correct_answer": 2,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_04",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 4)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_04.png",
+    "input_data": { "matrix": [[-1, 1, 2, 1], [1, 2, -1, 2], [2, 1, -3, 1], [1, 5, 0, 5]] },
+    "correct_answer": 2,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_05",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 5)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_05.png",
+    "input_data": { "matrix": [[1, 2, 3, 4], [-1, -2, 4, 3], [2, 6, 0, 1], [2, 6, 7, 8]] },
+    "correct_answer": 3,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_06",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 6)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_06.png",
+    "input_data": { "matrix": [[1, 2, -1, 1], [2, -1, 2, 3], [3, 1, 1, 5]] },
+    "correct_answer": 2,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_07",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 7)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_07.png",
+    "input_data": { "matrix": [[2, 1, 1, 1, 2], [1, 3, 1, 1, 1], [1, 1, 4, 1, 1], [1, 1, 1, 5, 1]] },
+    "correct_answer": 4,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_08",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 8)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_08.png",
+    "input_data": { "matrix": [[1, 1, 2, 3, 1], [3, -1, -1, -2, -4], [2, 3, -1, -1, -6], [1, 2, 3, -1, -4]] },
+    "correct_answer": 3,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_09",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 9)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_09.png",
+    "input_data": { "matrix": [[2, 1, 1, 2], [1, 3, 1, 5], [1, 1, 5, -7], [2, 3, -3, 14]] },
+    "correct_answer": 3,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_10",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 10)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_10.png",
+    "input_data": { "matrix": [[1, 0, -1, 1, 0], [1, 1, -1, 1, 0], [1, 0, 0, 0, 1], [0, 1, -1, 1, 1], [0, 1, -1, 0, 1]] },
+    "correct_answer": 4,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_11",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 11)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_11.png",
+    "input_data": { "matrix": [[1, 2, -5, 4], [-6, 0, 2, 1], [1, 2, 7, 5], [7, 4, 1, -10]] },
+    "correct_answer": 3,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_12",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 12)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_12.png",
+    "input_data": { "matrix": [[-5, 2, -1, 12], [2, -10, 2, 13], [3, -1, 10, 5]] },
+    "correct_answer": 3,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_13",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 13)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_13.png",
+    "input_data": { "matrix": [[1, 2, 3, -4], [11, -6, 2, 1], [-15, 2, 7, -5], [-1, 4, 2, 1]] },
+    "correct_answer": 3,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_14",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 14)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_14.png",
+    "input_data": { "matrix": [[11, 2, -1, -1], [-2, -1, 0, 3], [13, 1, 1, 15]] },
+    "correct_answer": 2,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_15",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 15)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_15.png",
+    "input_data": { "matrix": [[15, 2, 3, 0], [-1, 0, 2, 1], [0, -2, 17, 5], [-17, 4, 12, -11]] },
+    "correct_answer": 3,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_16",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 16)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_16.png",
+    "input_data": { "matrix": [[-1, 0, -1, 1, 0], [12, 1, -1, -1, 5], [1, 0, 6, 0, 1], [3, -1, -1, 14, 11], [0, 1, -1, 0, -1]] },
+    "correct_answer": 4,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_17",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 17)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_17.png",
+    "input_data": { "matrix": [[1, 0, -1, 1, 0], [-1, 1, -12, 1, 3], [1, 0, 0, 0, 1], [0, 1, -1, 1, 1], [6, 1, -14, 7, 1]] },
+    "correct_answer": 4,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_18",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 18)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_18.png",
+    "input_data": { "matrix": [[14, 1, 2, 3, 1], [3, -1, -1, 0, -4], [-2, 3, -12, -1, -6], [15, 2, 3, -1, 4]] },
+    "correct_answer": 3,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_19",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 19)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_19.png",
+    "input_data": { "matrix": [[1, 0, 2, 3, 1], [-3, -1, -1, 21, -4], [2, 3, -1, -11, 6], [1, 2, 13, 1, -4]] },
+    "correct_answer": 3,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "rank_20",
+    "topic": "7. Matrix Rank",
+    "title": "Matrix Rank Evaluation (Variant 20)",
+    "description": "Determine the rank of the matrix:",
+    "image_path": "assets/images/07/07rank_20.png",
+    "input_data": { "matrix": [[2, -1, -1, 10, 2], [-1, 13, 13, 1, 1], [1, -1, -4, 1, 1], [-1, 0, 11, 5, -1]] },
+    "correct_answer": 3,
+    "hints": ["Reduce the matrix to row echelon form using elementary row operations."]
+  },
+  {
+    "id": "gauss_01",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 1)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_01.png",
+    "input_data": { "coefficients": [[1, 1, -1], [0, 2, 1], [5, 1, 1], [7, 1, 2]], "free_terms": [1, 0, 1, 1] },
+    "correct_answer": [0.0, 0.5, -1.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_02",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 2)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_02.png",
+    "input_data": { "coefficients": [[2, 1, 1], [1, 0, 2], [3, 1, 2], [4, 1, 4]], "free_terms": [-1, 3, -1, 2] },
+    "correct_answer": [3.0, -4.0, 0.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_03",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 3)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_03.png",
+    "input_data": { "coefficients": [[1, 2, 2], [4, 5, -5], [5, 7, -2], [6, 9, 0]], "free_terms": [2, -8, -5, -3] },
+    "correct_answer": [2.0, -2.0, 2.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_04",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 4)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_04.png",
+    "input_data": { "coefficients": [[1, 2, -3], [0, 1, 2], [1, 0, 4], [3, 4, -2]], "free_terms": [-7, 1, 13, 3] },
+    "correct_answer": [1.0, -3.0, 2.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_05",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 5)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_05.png",
+    "input_data": { "coefficients": [[2, 1, 1], [0, 2, 1], [3, 1, 2], [4, 4, 3]], "free_terms": [7, -2, 14, 10] },
+    "correct_answer": [3.0, -2.0, 2.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_06",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 6)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_06.png",
+    "input_data": { "coefficients": [[4, 2, -1], [5, 3, -2], [3, 2, -5], [3, 1, 0]], "free_terms": [15, 19, 8, 10] },
+    "correct_answer": [3.0, 1.0, -2.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_07",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 7)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_07.png",
+    "input_data": { "coefficients": [[3, 2, 1], [0, 3, 1], [6, 7, 3], [3, 1, 0]], "free_terms": [-4, 7, -1, -11] },
+    "correct_answer": [-4.0, 1.0, 4.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_08",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 8)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_08.png",
+    "input_data": { "coefficients": [[1, 1, 1], [2, 3, 4], [4, 5, 6], [3, 4, 5]], "free_terms": [3, 3, 9, 6] },
+    "correct_answer": [6.0, -3.0, 0.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_09",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 9)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_09.png",
+    "input_data": { "coefficients": [[1, -2, -1], [3, 1, 2], [5, -3, 0], [4, -1, 1]], "free_terms": [-5, 0, -10, -5] },
+    "correct_answer": [-1.0, 1.6667, -1.3333],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_10",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 10)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_10.png",
+    "input_data": { "coefficients": [[3, -3, 2], [4, -5, 2], [2, -1, 2], [7, -8, 4]], "free_terms": [-2, -3, -1, -5] },
+    "correct_answer": [1.0, 2.0, -2.5],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_11",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 11)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_11.png",
+    "input_data": { "coefficients": [[-2, 3, -1], [0, 2, 1], [-1, 1, -6], [4, 3, 0]], "free_terms": [12, 2, 11, 1] },
+    "correct_answer": [-2.0, 3.0, -4.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_12",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 12)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_12.png",
+    "input_data": { "coefficients": [[1, 3, 1], [0, -8, 2], [1, -1, 2], [-4, 2, 4]], "free_terms": [-1, 13, -11, 2] },
+    "correct_answer": [-5.0, -1.0, 2.5],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_13",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 13)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_13.png",
+    "input_data": { "coefficients": [[1, 2, -1], [2, -1, 3], [3, 1, 2], [1, 3, 1]], "free_terms": [3, 7, 10, 6] },
+    "correct_answer": [2.0, 1.0, 1.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_14",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 14)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_14.png",
+    "input_data": { "coefficients": [[2, -1, 1], [1, 3, -2], [3, 2, 1], [4, 1, 0]], "free_terms": [7, -1, 8, 7] },
+    "correct_answer": [2.0, -1.0, 2.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_15",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 15)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_15.png",
+    "input_data": { "coefficients": [[-2, 1, -1], [1, 2, 1], [-3, -1, 2], [1, 7, 3]], "free_terms": [1, -7, 1, 1] },
+    "correct_answer": [-2.0, -2.0, -1.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_16",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 16)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_16.png",
+    "input_data": { "coefficients": [[1, -1, 2], [2, 1, -1], [3, -2, 1], [1, 2, 1]], "free_terms": [7, 3, 7, 4] },
+    "correct_answer": [2.0, -1.0, 2.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_17",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 17)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_17.png",
+    "input_data": { "coefficients": [[2, 1, -1], [1, -2, 3], [3, -1, 2], [4, -1, 1]], "free_terms": [7, -5, 8, 9] },
+    "correct_answer": [2.0, 1.0, -2.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_18",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 18)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_18.png",
+    "input_data": { "coefficients": [[0, -1, 1], [1, 3, 4], [-4, 5, 6], [-3, 5, 0]], "free_terms": [3, 3, 7, -4] },
+    "correct_answer": [3.0, 1.0, 4.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_19",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 19)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_19.png",
+    "input_data": { "coefficients": [[1, 1, 1], [2, -1, 2], [3, 2, -1], [2, 3, 1]], "free_terms": [6, 5, 7, 11] },
+    "correct_answer": [1.0, 2.0, 3.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "gauss_20",
+    "topic": "8. Gaussian Elimination",
+    "title": "Gaussian Elimination for SLAE (Variant 20)",
+    "description": "Solve the system using Gaussian elimination [x1, x2, x3]:",
+    "image_path": "assets/images/08/08gauss_20.png",
+    "input_data": { "coefficients": [[-1, -3, 2], [-2, 3, 1], [1, 0, 2], [-3, 8, 0]], "free_terms": [3, 3, 1, 3] },
+    "correct_answer": [-3.0, -0.75, 2.0],
+    "hints": ["Apply forward elimination to form a row echelon form, then back-substitute."]
+  },
+  {
+    "id": "sfr_01",
+    "topic": "9. Fundamental Solution Set",
+    "title": "Fundamental Solution Set (FSS)",
+    "description": "Find the FSS basis for the homogeneous system:",
+    "image_path": "assets/images/09sfr_01.png",
+    "input_data": { "matrix": [[1, -1, 1], [2, -2, 2]] },
+    "correct_answer": [[1, 1, 0], [-1, 0, 1]],
+    "hints": ["Find matrix rank and free variables count (n - r)."]
+  }
+]
